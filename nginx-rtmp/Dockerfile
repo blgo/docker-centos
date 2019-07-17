@@ -71,6 +71,7 @@ RUN ./configure  --add-module=../nginx-rtmp-module \
 --with-stream_ssl_module \
 --with-stream \
 --with-threads \
+--with-debug \
 --prefix=/etc/nginx
 
 RUN make 
