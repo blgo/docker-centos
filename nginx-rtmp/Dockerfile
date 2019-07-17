@@ -91,10 +91,10 @@ COPY nginx.service  /lib/systemd/system/nginx.service
 COPY nginx.conf  /etc/nginx/nginx.conf
 RUN systemctl enable nginx
 
-RUN mkdir -p /var/www/videos/
+RUN mkdir -p /var/www/live/
 RUN mkdir -p /var/www/hls/live
 RUN wget -q https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
-RUN cp /tmp/big_buck_bunny_720p_surround.mp4 /var/www/videos/sample.mp4
+RUN cp /tmp/big_buck_bunny_720p_surround.mp4 /var/www/live/sample.mp4
 
 RUN wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
 RUN tar xf ffmpeg-release-amd64-static.tar.xz --strip-components=1
