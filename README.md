@@ -1,3 +1,11 @@
+[![](https://images.microbadger.com/badges/version/blgo/centos-systemd:base.svg)](https://microbadger.com/images/blgo/centos-systemd:base "Get your own version badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/blgo/centos-systemd:rtmp.svg)](https://microbadger.com/images/blgo/centos-systemd:rtmp "Get your own version badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/blgo/centos-systemd:python2.7.svg)](https://microbadger.com/images/blgo/centos-systemd:python2.7 "Get your own version badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/blgo/centos-systemd:mysql8.svg)](https://microbadger.com/images/blgo/centos-systemd:mysql8 "Get your own version badge on microbadger.com")
+
 # docker-centos
 
 Start container - privileged mode:
