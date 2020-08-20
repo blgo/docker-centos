@@ -2,7 +2,7 @@ FROM blgo/centos-systemd:base
 RUN yum -y install gcc openssl-devel bzip2-devel make
 
 WORKDIR /usr/src
-RUN curl https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz -o Python.tgz \
+RUN curl https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz -o Python.tgz \
     && tar xzf Python.tgz \
     && cd Python* \
     && ./configure --enable-optimizations \
